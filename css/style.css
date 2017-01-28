@@ -1,0 +1,86 @@
+body{
+	position: relative;
+	top: 62px;
+}
+
+.contenedor{
+	max-width: 1000px;
+	margin: auto;
+}
+
+nav{
+	background: black;
+	position: fixed;
+    width: 100%;
+}
+
+nav img{
+	padding: 10px 0;
+}
+
+.menu{
+	float: right;
+}
+
+.menu li{
+	display: inline-block;
+	padding: 23px 10px;
+}
+
+.menu li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+
+.menu li a:hover{
+	color: red;
+	background: yellow;
+}
+
+header{
+	padding: 100px 0;
+	background-image: url("../images/fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+header h1{
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+header h3{
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.servicios h2{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+
+
+.servicio h3{
+	font-size: 24px;
+	color: #333333;
+}
+
+.servicio .boton{
+	background: red;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 3px;
+	text-decoration: none;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.servicio{
+	float: left;
+	width: 33.3%;
+}
